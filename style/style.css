@@ -24,6 +24,12 @@ body {
   height: 96vh;
 }
 
+@media (max-width: 800px) and (orientation: landscape) {
+  .main {
+    height: 200vh;
+  }
+}
+
 .main > .mainContainer {
   border-radius: 30px;
   background-color: #282828;
@@ -44,6 +50,24 @@ body {
           flex-direction: column;
 }
 
+@media (max-width: 420px) and (orientation: portrait) {
+  .main > .mainContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) and (orientation: portrait) {
+  .main > .mainContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main > .mainContainer {
+    width: 100%;
+  }
+}
+
 .main > .mainContainer > .cardTitle {
   border-radius: 30px;
   background-color: #e5b36a;
@@ -58,6 +82,18 @@ body {
 
 .main > .mainContainer > .imgBox {
   width: 30%;
+}
+
+@media (max-width: 420px) and (orientation: portrait) {
+  .main > .mainContainer > .imgBox {
+    width: 55%;
+  }
+}
+
+@media (max-width: 650px) and (orientation: portrait) {
+  .main > .mainContainer > .imgBox {
+    width: 55%;
+  }
 }
 
 .main > .mainContainer > .imgBox > img {
@@ -90,6 +126,24 @@ body {
   padding: 20px;
 }
 
+@media (max-width: 420px) and (orientation: portrait) {
+  .main > .mainContainer > .shareContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) and (orientation: portrait) {
+  .main > .mainContainer > .shareContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  .main > .mainContainer > .shareContainer {
+    width: 85%;
+  }
+}
+
 .main > .mainContainer > .shareContainer .icon {
   cursor: pointer;
   width: 20%;
@@ -98,6 +152,7 @@ body {
 .main > .mainContainer > .shareContainer .icon .shareName {
   width: 100%;
   text-align: center;
+  margin-top: .4rem;
 }
 
 footer {
@@ -110,7 +165,51 @@ footer {
   line-height: 4vh;
 }
 
-.st0 {
+.plurk .st1 {
   fill: #EFBB6A;
+}
+
+.plurk .st0 {
+  fill: #191919;
+}
+
+.plurk:hover .st1 {
+  fill: #FF574D;
+}
+
+.plurk:hover .st0 {
+  fill: #FFFFFF;
+}
+
+.facebook .st1 {
+  fill: #EFBB6A;
+}
+
+.facebook .st0 {
+  fill: #191919;
+}
+
+.facebook:hover .st1 {
+  fill: #3b5998;
+}
+
+.facebook:hover .st0 {
+  fill: #FFFFFF;
+}
+
+.twitter .st1 {
+  fill: #EFBB6A;
+}
+
+.twitter .st0 {
+  fill: #191919;
+}
+
+.twitter:hover .st1 {
+  fill: #1da1f2;
+}
+
+.twitter:hover .st0 {
+  fill: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,16 +8,16 @@
     <title>MonsterHunter Weapon Test</title>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="嘿蒼藍星就是你 也來試試這個流派吧" />
-    <meta property="og:url" content="https://mhwweapontest.github.io/W24.html" />
-    <meta property="og:description"   content="我該來試試貫通重弩了" />
-	<meta property="og:image"         content="https://mhwweapontest.github.io/static/media/card25.26621171.png" />
+    <meta property="og:url" content="https://mhwweapontest.github.io/W26.html" />
+    <meta property="og:description"   content="我該來試試徹甲輕弩了" />
+	<meta property="og:image"         content="https://mhwweapontest.github.io/static/media/card27.f401a06a.png" />
 </head>
 <body>
     <div class="main">
         <div class='mainContainer'>
-            <div class='cardTitle'>貫通重弩</div>
+            <div class='cardTitle'>徹甲輕弩</div>
             <div class='imgBox'>
-                <img src='https://mhwweapontest.github.io/static/media/card25.26621171.png'>
+                <img src='https://mhwweapontest.github.io/static/media/card27.f401a06a.png'>
             </div>
             <div class='shareTitle'>分享測驗結果</div>
             <div class='shareContainer'>
@@ -69,25 +69,18 @@
     <footer>copyright 2020 ccat@ptt</footer>
 </body>
 <script>
-    //解析網址 若value不是1就轉址
-    // let thisUrl = new URL(window.location.href);
-    // let params = thisUrl.searchParams;
-    // if(params.get('value') != 1){
-    //     document.location.href="https://mhwweapontest.github.io/";
-    // }
     let shareValue = window.sessionStorage.getItem("MHWtestValue");
-    console.log('shareValue'+shareValue)
     if(shareValue != 1){
         document.location.href="https://mhwweapontest.github.io/";
     }
     function facebookShare(){
-        window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent('https://mhwweapontest.github.io/W24.html')))
+        window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent('https://mhwweapontest.github.io/W26.html')))
     }
     function plurkShare(){
-        window.open('http://www.plurk.com/?qualifier=shares&status=' .concat(encodeURIComponent('https://mhwweapontest.github.io/W24.html')) .concat(' ') .concat('(') .concat(encodeURIComponent("魔物獵人武器流派測驗!!我該來試試貫通重弩了")) .concat(')'))
+        window.open('http://www.plurk.com/?qualifier=shares&status=' .concat(encodeURIComponent('https://mhwweapontest.github.io/W26.html')) .concat(' ') .concat('(') .concat(encodeURIComponent("魔物獵人武器流派測驗!!我該來試試徹甲輕弩了")) .concat(')'))
     }
     function twitterShare(){
-        window.open('https://twitter.com/intent/tweet?text=魔物獵人武器流派測驗!!&url=https://mhwweapontest.github.io/W24.html')
+        window.open('https://twitter.com/intent/tweet?text=魔物獵人武器流派測驗!!&url=https://mhwweapontest.github.io/W26.html')
     }
 </script>
 </html>
